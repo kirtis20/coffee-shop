@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8f5; /* Warm off-white background */
+    color: #3e2723; /* Dark brown text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+#banner {
+    text-align: center;
+    font-size: 36px;
+    color: #5d4037; /* Coffee brown */
+    margin-bottom: 20px;
+}
+
+/* Marquee Styles */
+#marquee {
+    background-color: #a1887f; /* Lighter coffee brown */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Freebie Styles */
+#freebie {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    cursor: pointer;
+    color: #d84315; /* Darker orange */
+}
+
+#cookie {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Form Styles */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #795548; /* Brownish border */
+}
+
+/* Button Styles */
+#btnCalc {
+    background-color: #4e342e; /* Darker coffee brown */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#btnCalc:hover {
+    background-color: #3e2723; /* Darker brown on hover */
+}
+
+/* Select Styles */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6d4c41; /* Darker brownish border */
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* SEO Styles */
+h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: #5d4037; /* Coffee brown */
+}
+
+/* Font Awesome Icons Styles */
+.fa-coffee-bean,
+.fa-coffee,
+.fa-heart,
+.fa-cookie {
+    font-size: 48px;
+    color: #6d4c41; /* Darker Brownish */
+}
